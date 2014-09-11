@@ -9,7 +9,7 @@ using namespace std;
 
 void GenerarRamdom(string nom[30][30]){
     char ram;
-    int i=0,j=0,h=0,cont=1;
+    int i=0,j=0,h=0;
     string cadena="";
     for(i=0;i<30;i++){ // llenar por fila
 
@@ -24,9 +24,7 @@ void GenerarRamdom(string nom[30][30]){
 
             }
             nom[i][j]=cadena;
-            cout<<cont,")";
             cout<<cadena<<endl;
-            cont++;
             cadena="";
 
         }
